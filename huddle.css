@@ -1,0 +1,243 @@
+/*  */
+body{
+    font-size:18px;
+    padding: 2vw;
+}
+.btn{
+    float:right;
+    text-align: right;
+    border-radius: 2vw;
+    border: 0vw;
+    font-size: 18px;
+    background-color: white;
+    width: 9vw;
+    font-weight: 600;
+    
+}
+.right{
+    float: right;
+}
+.top{
+    background-image: url("bg-hero-desktop.svg");
+    background-size: cover;
+    box-sizing: border-box;
+}
+.pinkbtn{
+    background-color:hsl(322, 100%, 66%);
+    width: 13vw;
+    border-radius: 3vw;
+    border: none;
+    color: white;
+    padding: 1.2vw;
+    font-weight: 400;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.top-image{
+    height: auto;
+    width: 50vw;
+    background-color: #ffff;
+}
+.fw{
+    font-weight: 600;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 30vw 50vw;
+    box-sizing: border-box;
+    background-color: white;
+    width:90vw;
+    box-sizing: border-box;
+    border: 1vw solid white;
+    padding: 1vw;
+    justify-content: center;
+}
+.grow{
+    width:30vw ;
+    float: right;
+}
+.growusers{
+  width: 35vw;
+  float: right;
+}
+.flwimg{
+    width: 30vw;
+}
+.btnp{
+    width: 13vw;
+    padding: 1.2vw;
+    color: white;
+    border-radius: 4vw;
+    border: 0px;
+    background-color: hsl(322, 100%, 66%);
+}
+.zindex{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    height:auto;
+    width:fit-content;
+    text-align: center;
+    box-sizing: border-box;
+    border: 3vw solid white;
+    border-radius: 1vw;
+    position: relative;
+    z-index: 2;
+}
+.footer{
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(208, 11%, 55%);
+    padding: 7vw;
+    margin: -30px;
+}
+.logo{
+    width: 10vw;
+}
+.gfoot{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    
+  }
+  .footer .col {
+    width: 290px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+  .margin{
+ 
+    margin-top:40px;
+}
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .top {
+     background-image: url("bg-hero-mobile.svg");
+
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .grid-container,.grid {
+      display: block;
+    }
+    .grow,.flwimg{
+      width: 70vw;
+    }
+    .pinkbtn{
+      width: 80vw;
+      height: auto;
+    }
+    .logo1{
+      width: 30vw;
+    }
+    .btn{
+      width: 40vw;
+    }
+    .btnp{
+      width: 40vw;
+    }
+    .growusers,.flwimg{
+      width: 75vw;
+      display: block;
+      position: relative;
+      z-index: 5;
+    }
+    .top-image{
+      justify-content: center;
+      width: 90vw;
+    }
+  }
